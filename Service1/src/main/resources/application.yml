@@ -15,7 +15,7 @@ eureka:
     register-with-eureka: true # 유레카 서비스에 (자신을) 등록 여부
     fetch-registry: true
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://ec2-13-125-49-175.ap-northeast-2.compute.amazonaws.com:8761/eureka/
     registry-fetch-interval-seconds: 5
     disable-delta: true
 
